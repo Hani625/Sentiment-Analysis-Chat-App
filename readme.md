@@ -2,7 +2,10 @@
 
 Simple example to experiment with Next.js, Pusher, and Sentiment libraries.
 
-You will need a Pusher application to run app. Free account and app can be set up quickly at [Pusher Dashboard]
+You will need a Pusher application to run app. Free account and app can be set up quickly at [Pusher Dashboard].
+
+Create a .env file following format of sample.env, and insert your Pusher credentials.
+
 
 ```
 # download / clone repo
@@ -34,7 +37,7 @@ npm run dev
 - uses AFINN-165 wordlist and Emoji Sentiment Ranking
 
 
-[Pusher Dashbaord]:https://dashboard.pusher.com/
+[Pusher Dashboard]:https://dashboard.pusher.com/
 [Next.js]:https://github.com/zeit/next.js/
 [Pusher]:https://pusher.com/docs
 [Sentiment]:https://github.com/thisandagain/sentiment
